@@ -1,0 +1,78 @@
+diff all
+# Betaflight / SPRACINGF3 3.1.7 Apr  3 2017 / 22:27:23 (e1c4b5c)
+defaults
+resource MOTOR 1 A07
+resource MOTOR 2 A12
+resource MOTOR 3 A06
+resource MOTOR 4 A11
+
+mmix reset
+
+mmix 0  1.000 -1.000  1.000 -1.000
+mmix 1  1.000 -1.000 -1.000  1.000
+mmix 2  1.000  1.000  1.000  1.000
+mmix 3  1.000  1.000 -1.000 -1.000
+
+feature -RX_PPM
+feature -VBAT
+feature -TELEMETRY
+feature -CURRENT_METER
+feature -RSSI_ADC
+feature -TRANSPONDER
+feature RX_SERIAL
+serial 2 64 115200 57600 0 115200
+aux 0 0 0 1700 2100
+aux 1 28 1 900 2100
+aux 2 4 1 900 2100
+aux 3 1 1 1300 1700
+aux 4 2 1 900 1300
+aux 5 13 2 1700 2100
+aux 6 26 2 1275 1675
+set min_check = 1005
+set max_check = 1995
+set min_throttle = 1043
+set max_throttle = 1999
+set serialrx_provider = SBUS
+set align_board_yaw = -90
+set gyro_sync_denom = 2
+set failsafe_delay = 5
+set pid_process_denom = 1
+set blackbox_rate_denom = 4
+profile 0
+
+rateprofile 0
+rateprofile 0
+
+set rc_expo = 40
+set rc_yaw_expo = 40
+set roll_srate = 78
+set pitch_srate = 78
+set yaw_srate = 78
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 1
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 2
+
+rateprofile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 0
+profile 0
+save
+# 
