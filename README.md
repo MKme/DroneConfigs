@@ -1,5 +1,6 @@
 # DroneConfigs
 My Freestyle Drone configs in BetaFlight and Butterflight
+Sell all videos here: https://www.youtube.com/playlist?list=PLxyM2a_cfnzgO5FcmIAv6LOsji3UiBhJX
 
 Starting to save all my configs here so people can find them from my YouTube videos and posts.
 
