@@ -1,0 +1,165 @@
+diff all
+
+# version
+# Betaflight / KAKUTEF4 (KTV1) 3.3.2 May  4 2018 / 09:38:52 (64a292f37) MSP API: 1.38
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+name X215 Pro
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -TELEMETRY
+feature AIRMODE
+feature ANTI_GRAVITY
+feature DYNAMIC_FILTER
+
+# beeper
+
+# map
+
+# serial
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100 0
+aux 1 1 1 1300 1700 0
+aux 2 2 1 900 1300 0
+aux 3 13 3 1350 1650 0
+aux 4 19 4 1700 2100 0
+aux 5 26 2 1350 1650 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set acc_trim_pitch = 2
+set rssi_channel = 16
+set max_aux_channels = 12
+set blackbox_p_ratio = 64
+set blackbox_device = SPIFLASH
+set motor_pwm_protocol = DSHOT600
+set bat_capacity = 1300
+set vbat_warning_cell_voltage = 34
+set current_meter = ADC
+set small_angle = 180
+set deadband = 3
+set pid_process_denom = 2
+set osd_cap_alarm = 1100
+set osd_vbat_pos = 2465
+set osd_rssi_pos = 2081
+set osd_tim_1_pos = 54
+set osd_tim_2_pos = 2519
+set osd_flymode_pos = 2508
+set osd_throttle_pos = 225
+set osd_vtx_channel_pos = 377
+set osd_ah_pos = 200
+set osd_current_pos = 2496
+set osd_mah_drawn_pos = 2434
+set osd_craft_name_pos = 0
+set osd_gps_speed_pos = 218
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 51
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 266
+set osd_altitude_pos = 247
+set osd_pid_roll_pos = 423
+set osd_pid_pitch_pos = 455
+set osd_pid_yaw_pos = 487
+set osd_debug_pos = 1
+set osd_power_pos = 321
+set osd_pidrate_profile_pos = 442
+set osd_avg_cell_voltage_pos = 449
+set osd_pit_ang_pos = 257
+set osd_rol_ang_pos = 289
+set osd_battery_usage_pos = 2057
+set osd_nheading_pos = 311
+set osd_nvario_pos = 279
+set osd_esc_tmp_pos = 82
+set osd_esc_rpm_pos = 83
+
+# profile
+profile 0
+
+
+# profile
+profile 1
+
+set setpoint_relax_ratio = 1
+set dterm_setpoint_weight = 1
+set p_pitch = 64
+set i_pitch = 63
+set d_pitch = 33
+set p_roll = 58
+set i_roll = 53
+set d_roll = 28
+set p_yaw = 78
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 1
+
+# rateprofile
+rateprofile 0
+
+set roll_rc_rate = 94
+set pitch_rc_rate = 94
+set yaw_rc_rate = 94
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 40
+set roll_srate = 83
+set pitch_srate = 83
+set yaw_srate = 82
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
