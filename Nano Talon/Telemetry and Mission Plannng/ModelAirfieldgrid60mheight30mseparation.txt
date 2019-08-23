@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<MISSION>
+<VERSION value="2.3 pre7" />
+<MISSIONITEM no="1" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68691018213741" lon="-81.72146793608408" alt="60.0" />
+<MISSIONITEM no="2" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.689253877199064" lon="-81.72146793608408" alt="60.0" />
+<MISSIONITEM no="3" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68922873160504" lon="-81.72184061606059" alt="60.0" />
+<MISSIONITEM no="4" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68690265757065" lon="-81.72184061606059" alt="60.0" />
+<MISSIONITEM no="5" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.686895133003894" lon="-81.72221329603711" alt="60.0" />
+<MISSIONITEM no="6" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68920358601102" lon="-81.72221329603711" alt="60.0" />
+<MISSIONITEM no="7" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68917844041699" lon="-81.72258597601362" alt="60.0" />
+<MISSIONITEM no="8" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68688760843713" lon="-81.72258597601362" alt="60.0" />
+<MISSIONITEM no="9" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.686873278376964" lon="-81.72295865599013" alt="60.0" />
+<MISSIONITEM no="10" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68915329482296" lon="-81.72295865599013" alt="60.0" />
+<MISSIONITEM no="11" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68912814922894" lon="-81.72333133596665" alt="60.0" />
+<MISSIONITEM no="12" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68685628272731" lon="-81.72333133596665" alt="60.0" />
+<MISSIONITEM no="13" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68683928707767" lon="-81.72370401594316" alt="60.0" />
+<MISSIONITEM no="14" action="WAYPOINT" parameter1="0" parameter2="0" parameter3="0" lat="43.68910300363491" lon="-81.72370401594316" alt="60.0" />
+</MISSION>
