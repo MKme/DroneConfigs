@@ -236,7 +236,7 @@ aux 6 10 1 1700 2100
 aux 7 14 3 1300 2100
 aux 8 27 2 1700 2100
 aux 9 28 2 1300 1700
-aux 10 0 0 900 900
+aux 10 11 4 1700 2100
 aux 11 0 0 900 900
 aux 12 0 0 900 900
 aux 13 0 0 900 900
@@ -1079,7 +1079,7 @@ set display_force_sw_blink = OFF
 set vtx_halfduplex = ON
 set vtx_band = 4
 set vtx_channel = 1
-set vtx_power = 1
+set vtx_power = 5
 set vtx_low_power_disarm = UNTIL_FIRST_ARM
 set vtx_freq = 5740
 set vtx_pit_mode_freq = 0
