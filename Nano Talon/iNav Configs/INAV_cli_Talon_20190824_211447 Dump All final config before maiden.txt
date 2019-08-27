@@ -1,4 +1,32 @@
-dump all
+ile
+profile 2
+
+
+# profile
+profile 3
+
+
+# battery_profile
+battery_profile 1
+
+set battery_capacity = 1300
+
+# battery_profile
+battery_profile 2
+
+
+# battery_profile
+battery_profile 3
+
+
+# restore original profile selection
+profile 1
+battery_profile 1
+
+# save configuration
+save
+
+# dump all
 
 # version
 # INAV/MATEKF722SE 2.2.1 Jul  3 2019 / 22:44:40 (a6d847482)
@@ -228,10 +256,10 @@ mode_color 6 10 0
 # aux
 aux 0 0 0 1700 2100
 aux 1 1 1 1300 1700
-aux 2 2 1 900 1300
-aux 3 3 1 900 1400
-aux 4 9 4 1300 1700
-aux 5 8 4 1700 2100
+aux 2 3 1 900 1400
+aux 3 9 4 1300 1700
+aux 4 8 4 1700 2100
+aux 5 35 1 900 1300
 aux 6 10 1 1700 2100
 aux 7 14 3 1300 2100
 aux 8 27 2 1700 2100
@@ -1346,55 +1374,4 @@ set pitch_rate = 20
 set yaw_rate = 20
 set manual_rc_expo = 70
 set manual_rc_yaw_expo = 20
-set manual_roll_rate = 100
-set manual_pitch_rate = 100
-set manual_yaw_rate = 100
-set fpv_mix_degrees = 0
-
-# battery_profile
-battery_profile 1
-
-set bat_cells = 0
-set vbat_cell_detect_voltage = 430
-set vbat_max_cell_voltage = 420
-set vbat_min_cell_voltage = 330
-set vbat_warning_cell_voltage = 350
-set battery_capacity = 1300
-set battery_capacity_warning = 0
-set battery_capacity_critical = 0
-set battery_capacity_unit = MAH
-
-# battery_profile
-battery_profile 2
-
-set bat_cells = 0
-set vbat_cell_detect_voltage = 430
-set vbat_max_cell_voltage = 420
-set vbat_min_cell_voltage = 330
-set vbat_warning_cell_voltage = 350
-set battery_capacity = 0
-set battery_capacity_warning = 0
-set battery_capacity_critical = 0
-set battery_capacity_unit = MAH
-
-# battery_profile
-battery_profile 3
-
-set bat_cells = 0
-set vbat_cell_detect_voltage = 430
-set vbat_max_cell_voltage = 420
-set vbat_min_cell_voltage = 330
-set vbat_warning_cell_voltage = 350
-set battery_capacity = 0
-set battery_capacity_warning = 0
-set battery_capacity_critical = 0
-set battery_capacity_unit = MAH
-
-# restore original profile selection
-profile 1
-battery_profile 1
-
-# save configuration
-save
-
-# 
+set manual
