@@ -1,5 +1,5 @@
 # DroneConfigs
-My Freestyle Drone configs in BetaFlight and Butterflight
+My Freestyle Drone configs in BetaFlight iNav and Butterflight
 See all videos here: https://www.youtube.com/playlist?list=PLxyM2a_cfnzgO5FcmIAv6LOsji3UiBhJX
 More Projects and Videos! My Youtube Channel : http://www.youtube.com/mkmeorg
 My website : http://www.mkme.org
