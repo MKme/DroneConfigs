@@ -1,5 +1,5 @@
 # DroneConfigs
-My Freestyle Drone configs in BetaFlight iNav and Butterflight
+My Drone and RC equipment configs in BetaFlight iNav and Butterflight as well as reference material and instructions. 
 
 See all videos here: https://www.youtube.com/playlist?list=PLxyM2a_cfnzgO5FcmIAv6LOsji3UiBhJX
 
