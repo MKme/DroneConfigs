@@ -1,4 +1,7 @@
-diff all
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# diff all
 
 # version
 # INAV/MATEKF722SE 2.2.1 Jul  3 2019 / 22:44:40 (a6d847482)
@@ -53,13 +56,14 @@ aux 1 1 1 1300 1700
 aux 2 3 1 900 1400
 aux 3 9 4 1300 1700
 aux 4 8 4 1700 2100
-aux 5 35 1 900 1300
-aux 6 10 1 1700 2100
-aux 7 14 3 1300 1600
-aux 8 28 2 1300 1700
-aux 9 11 4 1700 2100
-aux 10 18 2 1700 2100
-aux 11 37 3 1700 2100
+aux 5 8 3 1300 1700
+aux 6 35 1 900 1300
+aux 7 10 1 1700 2100
+aux 8 14 3 1300 1600
+aux 9 28 2 1300 1700
+aux 10 11 4 1700 2100
+aux 11 18 2 1700 2100
+aux 12 37 3 1700 2100
 
 # adjrange
 
@@ -77,14 +81,17 @@ osd_layout 0 7 13 11 V
 osd_layout 0 13 3 7 V
 osd_layout 0 14 22 2 V
 osd_layout 0 15 23 6 V
+osd_layout 0 20 19 13 V
+osd_layout 0 21 1 13 V
 osd_layout 0 22 17 1 V
 osd_layout 0 23 10 1 V
 osd_layout 0 25 22 4 V
 osd_layout 0 26 23 7 V
 osd_layout 0 27 2 6 V
-osd_layout 0 30 2 12 V
+osd_layout 0 30 1 12 V
 osd_layout 0 32 1 10 V
 osd_layout 0 34 10 2 V
+osd_layout 0 46 1 5 H
 
 # master
 set gyro_hardware_lpf = 188HZ
