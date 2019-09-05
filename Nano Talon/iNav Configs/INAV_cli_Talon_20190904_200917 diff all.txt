@@ -55,10 +55,11 @@ aux 3 9 4 1300 1700
 aux 4 8 4 1700 2100
 aux 5 35 1 900 1300
 aux 6 10 1 1700 2100
-aux 7 14 3 1300 2100
+aux 7 14 3 1300 1600
 aux 8 28 2 1300 1700
 aux 9 11 4 1700 2100
 aux 10 18 2 1700 2100
+aux 11 37 3 1700 2100
 
 # adjrange
 
@@ -112,7 +113,7 @@ set nav_rth_allow_landing = NEVER
 set nav_rth_altitude = 50000
 set nav_fw_bank_angle = 40
 set nav_fw_launch_max_angle = 60
-set nav_fw_launch_thr = 1800
+set nav_fw_launch_thr = 1900
 set nav_fw_launch_motor_delay = 150
 set nav_fw_launch_climb_angle = 25
 set name = Talon
