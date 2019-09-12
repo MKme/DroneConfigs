@@ -1,4 +1,7 @@
-diff all
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# diff all
 
 # version
 # INAV/MATEKF722SE 2.2.1 Jul  3 2019 / 22:44:40 (a6d847482)
@@ -127,15 +130,11 @@ set vtx_low_power_disarm = UNTIL_FIRST_ARM
 # profile
 profile 1
 
-set fw_p_pitch = 0
 set fw_i_pitch = 9
 set fw_ff_pitch = 90
-set fw_p_roll = 0
 set fw_i_roll = 8
 set fw_ff_roll = 110
-set fw_p_yaw = 0
 set fw_ff_yaw = 90
-set fw_iterm_limit_stick_position =  0.250
 set rc_expo = 60
 set roll_rate = 25
 set pitch_rate = 15
