@@ -227,18 +227,18 @@ mode_color 6 10 0
 
 # aux
 aux 0 0 0 1700 2100
-aux 1 1 1 1300 1700
-aux 2 3 1 900 1400
-aux 3 9 4 1300 1700
-aux 4 8 4 1700 2100
-aux 5 8 3 1300 1700
-aux 6 35 1 900 1300
-aux 7 10 1 1700 2100
-aux 8 14 3 1300 1600
-aux 9 28 2 1300 1700
-aux 10 11 4 1700 2100
-aux 11 18 2 1700 2100
-aux 12 37 3 1700 2100
+aux 1 3 1 900 1300
+aux 2 9 4 1300 1700
+aux 3 8 4 1700 2100
+aux 4 8 3 1300 1700
+aux 5 35 1 900 1300
+aux 6 10 1 1700 2100
+aux 7 14 3 1300 1600
+aux 8 28 2 1300 1700
+aux 9 11 4 1700 2100
+aux 10 18 2 1700 2100
+aux 11 37 3 1700 2100
+aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
 aux 15 0 0 900 900
@@ -771,7 +771,7 @@ set looptime = 1000
 set gyro_sync = ON
 set align_gyro = DEFAULT
 set gyro_hardware_lpf = 188HZ
-set gyro_lpf_hz = 60
+set gyro_lpf_hz = 20
 set gyro_lpf_type = BIQUAD
 set moron_threshold = 32
 set gyro_notch1_hz = 0
@@ -1105,14 +1105,14 @@ set mc_d_yaw = 0
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 20
-set fw_i_pitch = 30
+set fw_p_pitch = 5
+set fw_i_pitch = 9
 set fw_ff_pitch = 90
-set fw_p_roll = 20
-set fw_i_roll = 30
+set fw_p_roll = 5
+set fw_i_roll = 8
 set fw_ff_roll = 110
-set fw_p_yaw = 45
-set fw_i_yaw = 5
+set fw_p_yaw = 6
+set fw_i_yaw = 10
 set fw_ff_yaw = 90
 set fw_p_level = 20
 set fw_i_level = 5
@@ -1167,7 +1167,7 @@ set tpa_breakpoint = 1500
 set fw_tpa_time_constant = 0
 set rc_expo = 60
 set rc_yaw_expo = 20
-set roll_rate = 20
+set roll_rate = 25
 set pitch_rate = 15
 set yaw_rate = 9
 set manual_rc_expo = 60
