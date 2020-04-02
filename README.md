@@ -26,5 +26,5 @@ Blue Falcon Running newest BF and PIDs tuned Aug 2019
 
 Nano Talon tuning ongoing (archive folder has old configs to restore or old commits if needed)
 
-
+April 2020- Extensive iNav additions- Got 3DR Radio telemetry working in iNav FINALLY!
 
