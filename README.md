@@ -3,10 +3,8 @@
 <b>My Drone and RC equipment configs in BetaFlight iNav and Butterflight as well as reference material and instructions.</b><br>
 <br>
 <img src="https://github.com/MKme/DroneConfigs/blob/master/Images/2019-02-15%2020.00.52.jpg" width="700"/>
-
-Starting to save all my configs here so people can find them from my YouTube videos and posts. These are full CLI dumps from the firmware as well as all other reference materials, links and more.  
-
 <br>
+Starting to save all my configs here so people can find them from my YouTube videos and posts. These are full CLI dumps from the firmware as well as all other reference materials, links and more.  
 <br>
 🐦 <a href="https://twitter.com/mkmeorg">Twitter</a>
 | 📺 <a href="https://www.youtube.com/mkmeorg">YouTube</a>
