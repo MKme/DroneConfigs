@@ -1,0 +1,137 @@
+diff
+
+# version
+# INAV/MATEKF411SE 2.4.0 Feb 11 2020 / 23:07:15 (bcd4caef9)
+# GCC-8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+
+# start the command batch
+batch start
+
+# resources
+
+# mixer
+mmix 0  1.000  0.000  0.000  0.000
+mmix 1  1.000  0.000  0.000  0.000
+
+# servo mix
+smix 0 3 0 50 0 -1
+smix 1 3 1 50 0 -1
+smix 2 4 0 -50 0 -1
+smix 3 4 1 50 0 -1
+
+# servo
+
+# logic
+
+# gf
+
+# feature
+feature MOTOR_STOP
+feature GPS
+feature PWM_OUTPUT_ENABLE
+
+# beeper
+
+# map
+
+# serial
+serial 0 64 115200 115200 0 115200
+serial 1 2 115200 115200 0 115200
+serial 30 4096 115200 115200 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100
+aux 1 3 1 900 1275
+aux 2 9 4 1300 1700
+aux 3 8 4 1700 2100
+aux 4 8 3 1300 1700
+aux 5 35 1 900 1300
+aux 6 10 1 1700 2100
+aux 7 14 3 1300 1700
+aux 8 27 2 900 1300
+aux 9 28 2 1300 1700
+aux 10 11 4 1700 2100
+
+# adjrange
+
+# rxrange
+
+# temp_sensor
+
+# wp
+#wp 0 invalid
+
+# osd_layout
+osd_layout 0 0 22 1 V
+osd_layout 0 1 1 11 V
+osd_layout 0 13 2 6 V
+osd_layout 0 14 22 2 V
+osd_layout 0 15 23 6 V
+osd_layout 0 20 15 14 V
+osd_layout 0 21 3 14 V
+osd_layout 0 22 17 1 V
+osd_layout 0 23 11 1 V
+osd_layout 0 25 22 5 V
+osd_layout 0 26 23 7 V
+osd_layout 0 32 1 10 V
+osd_layout 0 34 10 2 V
+osd_layout 0 46 1 1 V
+
+# master
+set gyro_sync = OFF
+set gyro_hardware_lpf = 188HZ
+set acc_hardware = MPU6000
+set acczero_x = 101
+set acczero_y = -16
+set acczero_z = -122
+set accgain_x = 4078
+set accgain_y = 4105
+set accgain_z = 4028
+set mag_hardware = NONE
+set baro_hardware = NONE
+set pitot_hardware = NONE
+set serialrx_provider = CRSF
+set failsafe_procedure = RTH
+set align_board_yaw = -900
+set platform_type = AIRPLANE
+set model_preview_type = 8
+set applied_defaults = 1
+set nav_rth_climb_first = OFF
+set nav_rth_allow_landing = NEVER
+set nav_rth_altitude = 5000
+set nav_fw_loiter_radius = 7000
+set osd_time_alarm = 30
+set osd_alt_alarm = 120
+set osd_neg_alt_alarm = 0
+set name = ARWingMini
+set vtx_power = 5
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+
+# profile
+profile 1
+
+set fw_p_pitch = 15
+set fw_i_pitch = 40
+set fw_ff_pitch = 0
+set fw_p_roll = 15
+set fw_i_roll = 30
+set fw_ff_roll = 0
+set yaw_lpf_hz = 30
+set roll_rate = 40
+set pitch_rate = 15
+
+# battery_profile
+battery_profile 1
+
+set battery_capacity = 1300
+
+# end the command batch
+batch end
+
+# 
