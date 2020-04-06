@@ -1,0 +1,2 @@
+4-1-2020 
+iNav fully updated and old settings manually inputted. 433mhz telemetry working for wireless/mission
