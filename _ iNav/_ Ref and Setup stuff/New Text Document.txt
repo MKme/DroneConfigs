@@ -1,0 +1,35 @@
+ERVO AUTOTRIM
+In flight adjustment of servo midpoint for straight flight
+
+The purpose of this mode is to set new midpoints for SERVO_ELEVATOR, SERVO_FLAPERON_1, SERVO_FLAPERON_2 and SERVO_RUDDER.
+
+This is so when switching into passthrough mode the plane will fly straight, its also to help the PIFF controller know where the plane is expected to fly straight.
+
+How to use:
+
+This is intended to use in air.
+Fly straight, choose what mode that suites you best. (passthrough, angle or acro)
+Enable SERVO AUTOTRIM mode, and keep flying straight for 2 seconds. After 2 seconds it will set new midpoints based on average servo position during those 2 seconds.
+If your are NOT happy with new midpoints disable SERVO AUTOTRIM mode and it will revert back to old settings. If you want to keep new midpoints keep SERVO AUTOTRIM turned on, land aircraft and disarm. New midpoints will be saved.
+You may want to inspect your new midpoints after landing, if the servo offset is a lot you may alter your linkage mechanically and redo servo midpoint.
+
+This is not to be confused with tuning your aircraft for leveled flight in ANGLE mode, to do this you need to adjust your board alignment so straight flight for that aircraft is show the board being level ( 0 pitch and 0 roll ).
+
+AUTOTUNE
+AUTOTUNE is only available for fixed wing
+
+For detailed description go to https://github.com/iNavFlight/inav/blob/development/docs/Autotune%20-%20fixedwing.md
+
+AUTOTUNE will attempt to tune roll and pitch P, I and FF gains on a fixed-wing airplane.
+
+Autotune will monitor behavior of the airplane when you fly it and adjust P, I and FF gains to reach optimal performance.
+
+How to use:
+
+Take off. Any manual flight mode will do, ACRO is the best option. Enable AUTOTUNE mode. Do hard maneuvers on each axis separately. For roll - bank hard left/hard right. For pitch - fast climb, steep dive. Initially you probably will notice very soft response - make sure your flying field is big enough for slow turns.
+
+The more maneuvers you will do - the better results AUTOTUNE will be able to reach.
+
+AUTOTUNE will adjust gains constantly but it will take a snapshot of current gains every 5 seconds. When you disable AUTOTUNE gains from last snapshot will be restored. If you turn AUTOTUNE on and off before 5 seconds elapse - PIFF gains won't be changed.
+
+Currently AUTOTUNE don't save gains to EEPROM - you have to save manually, using a stick combo.
