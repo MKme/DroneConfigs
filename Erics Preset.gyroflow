@@ -1,0 +1,226 @@
+{
+    "background_color": [
+        17,
+        17,
+        17,
+        255
+    ],
+    "background_margin": 0,
+    "background_margin_feather": 0,
+    "background_mode": 0,
+    "calibration_data": {
+        "asymmetrical": true,
+        "calib_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "calibrated_by": "Eddy",
+        "calibrator_version": "1.1.0",
+        "camera_brand": "RunCam",
+        "camera_model": "5 Orange",
+        "camera_setting": "",
+        "compatible_settings": [
+        ],
+        "date": "2022-08-21",
+        "distortion_model_id": 0,
+        "fisheye_params": {
+            "RMS_error": 0.9259228422582176,
+            "camera_matrix": [
+                [
+                    2085.0560050850454,
+                    0,
+                    2011.1163006959612
+                ],
+                [
+                    0,
+                    2085.9725289559615,
+                    1010.867150607215
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "distortion_coeffs": [
+                -0.04295188207386641,
+                -0.00331211433702271,
+                0.004289392366512149,
+                -0.007206082992271696
+            ],
+            "radial_distortion_limit": null
+        },
+        "fps": 29.97,
+        "frame_readout_time": 15.85,
+        "gyro_lpf": null,
+        "identifier": "runcam-rc5-or-wide-3840x2160@29970",
+        "input_horizontal_stretch": 1,
+        "input_vertical_stretch": 1,
+        "is_superview": false,
+        "lens_model": "",
+        "name": "RunCam_5_Orange_4k_16by9_3840x2160-29.97fps",
+        "note": "",
+        "num_images": 29,
+        "official": true,
+        "orig_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "output_dimension": {
+            "h": 2160,
+            "w": 3840
+        },
+        "sync_settings": {
+            "custom_sync_timestamps": [
+                12800,
+                29466,
+                30500,
+                46666,
+                62833,
+                63866,
+                80033,
+                96200,
+                97233,
+                113400,
+                129566,
+                130600,
+                146766,
+                162933,
+                163966,
+                180133,
+                196300,
+                197333,
+                213500,
+                229666,
+                230700,
+                246866,
+                263033,
+                264066,
+                280233,
+                296400,
+                297433,
+                313600,
+                329766,
+                330800,
+                346966,
+                363133,
+                364166,
+                380333,
+                396500,
+                397533,
+                413700,
+                429866,
+                430900,
+                447066,
+                463233,
+                464266,
+                480433,
+                496600,
+                497633,
+                513800,
+                529966,
+                531000
+            ],
+            "do_autosync": true,
+            "every_nth_frame": 1,
+            "initial_offset": 0,
+            "initial_offset_inv": false,
+            "max_sync_points": 5,
+            "search_size": 1,
+            "time_per_syncpoint": 0.5
+        }
+    },
+    "gyro_source": {
+        "acc_rotation": [
+            0,
+            0,
+            0
+        ],
+        "gyro_bias": null,
+        "imu_orientation": "xzY",
+        "integration_method": 1,
+        "lpf": 30,
+        "rotation": [
+            0,
+            0,
+            0
+        ]
+    },
+    "muted": false,
+    "output": {
+        "audio": true,
+        "bitrate": 56.926164627075195,
+        "codec": "H.264/AVC",
+        "codec_options": "",
+        "encoder_options": "",
+        "keyframe_distance": 1,
+        "output_height": 2160,
+        "output_path": "C:/Users/white/Creative Cloud Files/Video Under Production/2022-9-24 quad fly/DCIM/100RUNCAM/",
+        "output_width": 3840,
+        "pad_with_black": false,
+        "preserve_other_tracks": false,
+        "use_gpu": true
+    },
+    "playback_speed": 1,
+    "stabilization": {
+        "adaptive_zoom_center_offset": [
+            0,
+            0
+        ],
+        "adaptive_zoom_window": 4.288479262672811,
+        "fov": 1,
+        "frame_readout_time": 0,
+        "horizon_lock_amount": 0,
+        "horizon_lock_roll": 0,
+        "lens_correction_amount": 1,
+        "method": "Default",
+        "smoothing_params": [
+            {
+                "name": "smoothness",
+                "value": 0.6088820754716981
+            },
+            {
+                "name": "smoothness_pitch",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_yaw",
+                "value": 0.5
+            },
+            {
+                "name": "smoothness_roll",
+                "value": 0.5
+            },
+            {
+                "name": "per_axis",
+                "value": 0
+            },
+            {
+                "name": "second_pass",
+                "value": 1
+            },
+            {
+                "name": "max_smoothness",
+                "value": 1
+            },
+            {
+                "name": "alpha_0_1s",
+                "value": 0.1
+            }
+        ],
+        "use_gravity_vectors": true
+    },
+    "synchronization": {
+        "auto_sync_points": true,
+        "calc_initial_fast": false,
+        "every_nth_frame": 1,
+        "initial_offset": 0,
+        "initial_offset_inv": false,
+        "max_sync_points": 5,
+        "of_method": 2,
+        "offset_method": 2,
+        "search_size": 1,
+        "time_per_syncpoint": 0.5
+    },
+    "version": 2
+}
